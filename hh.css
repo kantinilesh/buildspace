@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.hero {
+    background-color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content h2 {
+    font-size: 24px;
+    color: #777;
+    margin: 0;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.register-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #e64a19;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.course {
+    background-color: #fff;
+    padding: 20px;
+    width: 28%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.course:hover {
+    transform: translateY(-10px);
+}
+
+.course h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.course p {
+    font-size: 18px;
+    color: #777;
+    margin: 10px 0 0;
+}
+
+.machine-learning {
+    background-color: #e3f2fd;
+    border: 2px solid #2196f3;
+}
+
+.deep-learning {
+    background-color: #ffebee;
+    border: 2px solid #f44336;
+}
+
+.nlp {
+    background-color: #e8f5e9;
+    border: 2px solid #4caf50;
+}
+
+.faq {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.faq h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.faq p {
+    font-size: 18px;
+    color: #777;
+}
